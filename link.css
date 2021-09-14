@@ -17,3 +17,12 @@ main{
     color: black;
     background-color: #fff;
 }
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scroll-track{
+    background:#212121;
+}
+body::-webkit-scrollbar-thumb{
+    background:#FF7F00;
+}
